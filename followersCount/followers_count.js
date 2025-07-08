@@ -6,6 +6,12 @@ function increaseCount() {
     checkCountValue();
 }
 
+function resetCount(){
+    count = 0;
+    displayCount();
+    alert("You are back to 0 followers!")
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count;
 }
