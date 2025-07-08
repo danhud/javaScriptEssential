@@ -9,7 +9,7 @@ function increaseCount() {
 function resetCount(){
     count = 0;
     displayCount();
-    alert("You are back to 0 followers!")
+    alert("You are back to 0 followers!");
 }
 
 function displayCount() {
